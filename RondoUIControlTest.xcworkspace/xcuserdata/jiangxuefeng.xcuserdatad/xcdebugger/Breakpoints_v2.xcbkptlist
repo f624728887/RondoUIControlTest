@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   type = "0"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "RondoUIControlTest/ViewController.swift"
+            timestampString = "544325398.722415"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "77"
+            endingLineNumber = "77"
+            landmarkName = "tableView(_:didSelectRowAt:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "RondoUIControlTest.ViewController.tableView(__ObjC.UITableView, didSelectRowAt: Foundation.IndexPath) -&gt; ()"
+                  moduleName = "RondoUIControlTest"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/jiangxuefeng/Desktop/%E6%88%91%E7%9A%84%E6%A1%8C%E9%9D%A2/%E5%A4%A9%E5%A4%A9%E5%90%91%E4%B8%8A/RondoUIControlTest/RondoUIControlTest/ViewController.swift"
+                  timestampString = "544325401.8475699"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "77"
+                  endingLineNumber = "77"
+                  offsetFromSymbolStart = "2325">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "RondoUIControlTest.ViewController.tableView(__ObjC.UITableView, didSelectRowAt: Foundation.IndexPath) -&gt; ()"
+                  moduleName = "RondoUIControlTest"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/jiangxuefeng/Desktop/%E6%88%91%E7%9A%84%E6%A1%8C%E9%9D%A2/%E5%A4%A9%E5%A4%A9%E5%90%91%E4%B8%8A/RondoUIControlTest/RondoUIControlTest/ViewController.swift"
+                  timestampString = "544325401.849309"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "77"
+                  endingLineNumber = "77"
+                  offsetFromSymbolStart = "2583">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

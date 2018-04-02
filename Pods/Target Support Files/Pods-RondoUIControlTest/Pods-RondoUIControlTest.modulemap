@@ -1,0 +1,6 @@
+framework module Pods_RondoUIControlTest {
+  umbrella header "Pods-RondoUIControlTest-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -14,6 +14,22 @@
 		57C8074C2071B91C00D4D4B1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 57C8074A2071B91C00D4D4B1 /* LaunchScreen.storyboard */; };
 		57C807572071B91C00D4D4B1 /* RondoUIControlTestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57C807562071B91C00D4D4B1 /* RondoUIControlTestTests.swift */; };
 		57C807622071B91C00D4D4B1 /* RondoUIControlTestUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57C807612071B91C00D4D4B1 /* RondoUIControlTestUITests.swift */; };
+		57C807842071BB1900D4D4B1 /* RectPageControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57C807702071BB1900D4D4B1 /* RectPageControl.swift */; };
+		57C807852071BB1900D4D4B1 /* PageControlTestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57C807712071BB1900D4D4B1 /* PageControlTestViewController.swift */; };
+		57C807862071BB1900D4D4B1 /* QQAlertTestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57C807732071BB1900D4D4B1 /* QQAlertTestViewController.swift */; };
+		57C807872071BB1900D4D4B1 /* QAlertView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57C807742071BB1900D4D4B1 /* QAlertView.swift */; };
+		57C807882071BB1900D4D4B1 /* RondoTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57C807762071BB1900D4D4B1 /* RondoTableViewCell.swift */; };
+		57C807892071BB1900D4D4B1 /* HorizontalViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57C807772071BB1900D4D4B1 /* HorizontalViewController.swift */; };
+		57C8078A2071BB1900D4D4B1 /* RondoHorizontalTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57C807782071BB1900D4D4B1 /* RondoHorizontalTableView.swift */; };
+		57C8078B2071BB1900D4D4B1 /* WechatSheetViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57C8077A2071BB1900D4D4B1 /* WechatSheetViewController.swift */; };
+		57C8078C2071BB1900D4D4B1 /* WechatSheetTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57C8077B2071BB1900D4D4B1 /* WechatSheetTableViewCell.swift */; };
+		57C8078D2071BB1900D4D4B1 /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57C8077E2071BB1900D4D4B1 /* BaseViewController.swift */; };
+		57C8078E2071BB1900D4D4B1 /* PushDemoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57C8077F2071BB1900D4D4B1 /* PushDemoViewController.swift */; };
+		57C8078F2071BB1900D4D4B1 /* PushFirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57C807802071BB1900D4D4B1 /* PushFirstViewController.swift */; };
+		57C807902071BB1900D4D4B1 /* PushAnimationProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57C807822071BB1900D4D4B1 /* PushAnimationProtocol.swift */; };
+		57C807912071BB1900D4D4B1 /* PopAnimationProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57C807832071BB1900D4D4B1 /* PopAnimationProtocol.swift */; };
+		57C807932071BB3900D4D4B1 /* MacroFile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57C807922071BB3900D4D4B1 /* MacroFile.swift */; };
+		EA6AF65208E90ADA19CFF562 /* Pods_RondoUIControlTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F2C43881AD5B4B3932754136 /* Pods_RondoUIControlTest.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +63,25 @@
 		57C8075D2071B91C00D4D4B1 /* RondoUIControlTestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RondoUIControlTestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		57C807612071B91C00D4D4B1 /* RondoUIControlTestUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RondoUIControlTestUITests.swift; sourceTree = "<group>"; };
 		57C807632071B91C00D4D4B1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		57C807702071BB1900D4D4B1 /* RectPageControl.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RectPageControl.swift; sourceTree = "<group>"; };
+		57C807712071BB1900D4D4B1 /* PageControlTestViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PageControlTestViewController.swift; sourceTree = "<group>"; };
+		57C807732071BB1900D4D4B1 /* QQAlertTestViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QQAlertTestViewController.swift; sourceTree = "<group>"; };
+		57C807742071BB1900D4D4B1 /* QAlertView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QAlertView.swift; sourceTree = "<group>"; };
+		57C807762071BB1900D4D4B1 /* RondoTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RondoTableViewCell.swift; sourceTree = "<group>"; };
+		57C807772071BB1900D4D4B1 /* HorizontalViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HorizontalViewController.swift; sourceTree = "<group>"; };
+		57C807782071BB1900D4D4B1 /* RondoHorizontalTableView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RondoHorizontalTableView.swift; sourceTree = "<group>"; };
+		57C8077A2071BB1900D4D4B1 /* WechatSheetViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WechatSheetViewController.swift; sourceTree = "<group>"; };
+		57C8077B2071BB1900D4D4B1 /* WechatSheetTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WechatSheetTableViewCell.swift; sourceTree = "<group>"; };
+		57C8077E2071BB1900D4D4B1 /* BaseViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
+		57C8077F2071BB1900D4D4B1 /* PushDemoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PushDemoViewController.swift; sourceTree = "<group>"; };
+		57C807802071BB1900D4D4B1 /* PushFirstViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PushFirstViewController.swift; sourceTree = "<group>"; };
+		57C807822071BB1900D4D4B1 /* PushAnimationProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PushAnimationProtocol.swift; sourceTree = "<group>"; };
+		57C807832071BB1900D4D4B1 /* PopAnimationProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PopAnimationProtocol.swift; sourceTree = "<group>"; };
+		57C807922071BB3900D4D4B1 /* MacroFile.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MacroFile.swift; sourceTree = "<group>"; };
+		57C807942071BBA200D4D4B1 /* RondoUIControlTest-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "RondoUIControlTest-Bridging-Header.h"; sourceTree = "<group>"; };
+		87F857E7E669F3076259DB25 /* Pods-RondoUIControlTest.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RondoUIControlTest.release.xcconfig"; path = "Pods/Target Support Files/Pods-RondoUIControlTest/Pods-RondoUIControlTest.release.xcconfig"; sourceTree = "<group>"; };
+		F2C43881AD5B4B3932754136 /* Pods_RondoUIControlTest.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RondoUIControlTest.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F2DDD51CA611F7282FA3E45F /* Pods-RondoUIControlTest.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RondoUIControlTest.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RondoUIControlTest/Pods-RondoUIControlTest.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +89,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EA6AF65208E90ADA19CFF562 /* Pods_RondoUIControlTest.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -74,6 +110,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		15EFBAB4CE40C1C49A451328 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F2DDD51CA611F7282FA3E45F /* Pods-RondoUIControlTest.debug.xcconfig */,
+				87F857E7E669F3076259DB25 /* Pods-RondoUIControlTest.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		33515D94AC756DC473F7A64F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F2C43881AD5B4B3932754136 /* Pods_RondoUIControlTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		57C807352071B91C00D4D4B1 = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +134,8 @@
 				57C807552071B91C00D4D4B1 /* RondoUIControlTestTests */,
 				57C807602071B91C00D4D4B1 /* RondoUIControlTestUITests */,
 				57C8073F2071B91C00D4D4B1 /* Products */,
+				15EFBAB4CE40C1C49A451328 /* Pods */,
+				33515D94AC756DC473F7A64F /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -97,12 +152,19 @@
 		57C807402071B91C00D4D4B1 /* RondoUIControlTest */ = {
 			isa = PBXGroup;
 			children = (
+				57C807752071BB1900D4D4B1 /* horizontalTableView */,
+				57C8077C2071BB1900D4D4B1 /* pushDemo */,
+				57C807722071BB1900D4D4B1 /* qqAlert */,
+				57C8076F2071BB1900D4D4B1 /* rectPageControl */,
+				57C807792071BB1900D4D4B1 /* wechat */,
 				57C807412071B91C00D4D4B1 /* AppDelegate.swift */,
 				57C807432071B91C00D4D4B1 /* ViewController.swift */,
 				57C807452071B91C00D4D4B1 /* Main.storyboard */,
 				57C807482071B91C00D4D4B1 /* Assets.xcassets */,
 				57C8074A2071B91C00D4D4B1 /* LaunchScreen.storyboard */,
 				57C8074D2071B91C00D4D4B1 /* Info.plist */,
+				57C807922071BB3900D4D4B1 /* MacroFile.swift */,
+				57C807942071BBA200D4D4B1 /* RondoUIControlTest-Bridging-Header.h */,
 			);
 			path = RondoUIControlTest;
 			sourceTree = "<group>";
@@ -125,6 +187,71 @@
 			path = RondoUIControlTestUITests;
 			sourceTree = "<group>";
 		};
+		57C8076F2071BB1900D4D4B1 /* rectPageControl */ = {
+			isa = PBXGroup;
+			children = (
+				57C807702071BB1900D4D4B1 /* RectPageControl.swift */,
+				57C807712071BB1900D4D4B1 /* PageControlTestViewController.swift */,
+			);
+			path = rectPageControl;
+			sourceTree = "<group>";
+		};
+		57C807722071BB1900D4D4B1 /* qqAlert */ = {
+			isa = PBXGroup;
+			children = (
+				57C807732071BB1900D4D4B1 /* QQAlertTestViewController.swift */,
+				57C807742071BB1900D4D4B1 /* QAlertView.swift */,
+			);
+			path = qqAlert;
+			sourceTree = "<group>";
+		};
+		57C807752071BB1900D4D4B1 /* horizontalTableView */ = {
+			isa = PBXGroup;
+			children = (
+				57C807762071BB1900D4D4B1 /* RondoTableViewCell.swift */,
+				57C807772071BB1900D4D4B1 /* HorizontalViewController.swift */,
+				57C807782071BB1900D4D4B1 /* RondoHorizontalTableView.swift */,
+			);
+			path = horizontalTableView;
+			sourceTree = "<group>";
+		};
+		57C807792071BB1900D4D4B1 /* wechat */ = {
+			isa = PBXGroup;
+			children = (
+				57C8077A2071BB1900D4D4B1 /* WechatSheetViewController.swift */,
+				57C8077B2071BB1900D4D4B1 /* WechatSheetTableViewCell.swift */,
+			);
+			path = wechat;
+			sourceTree = "<group>";
+		};
+		57C8077C2071BB1900D4D4B1 /* pushDemo */ = {
+			isa = PBXGroup;
+			children = (
+				57C8077D2071BB1900D4D4B1 /* pushFather */,
+				57C8077F2071BB1900D4D4B1 /* PushDemoViewController.swift */,
+				57C807802071BB1900D4D4B1 /* PushFirstViewController.swift */,
+				57C807812071BB1900D4D4B1 /* pushProtocol */,
+			);
+			path = pushDemo;
+			sourceTree = "<group>";
+		};
+		57C8077D2071BB1900D4D4B1 /* pushFather */ = {
+			isa = PBXGroup;
+			children = (
+				57C8077E2071BB1900D4D4B1 /* BaseViewController.swift */,
+			);
+			path = pushFather;
+			sourceTree = "<group>";
+		};
+		57C807812071BB1900D4D4B1 /* pushProtocol */ = {
+			isa = PBXGroup;
+			children = (
+				57C807822071BB1900D4D4B1 /* PushAnimationProtocol.swift */,
+				57C807832071BB1900D4D4B1 /* PopAnimationProtocol.swift */,
+			);
+			path = pushProtocol;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +259,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 57C807662071B91C00D4D4B1 /* Build configuration list for PBXNativeTarget "RondoUIControlTest" */;
 			buildPhases = (
+				C1D8BC454303C067D9310863 /* [CP] Check Pods Manifest.lock */,
 				57C8073A2071B91C00D4D4B1 /* Sources */,
 				57C8073B2071B91C00D4D4B1 /* Frameworks */,
 				57C8073C2071B91C00D4D4B1 /* Resources */,
+				0B3F4D1A27D6D67BDA730691 /* [CP] Embed Pods Frameworks */,
+				BB4FF8C5B38C35AD59A90841 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -254,13 +384,82 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		0B3F4D1A27D6D67BDA730691 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-RondoUIControlTest/Pods-RondoUIControlTest-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Masonry/Masonry.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Masonry.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RondoUIControlTest/Pods-RondoUIControlTest-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BB4FF8C5B38C35AD59A90841 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RondoUIControlTest/Pods-RondoUIControlTest-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C1D8BC454303C067D9310863 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-RondoUIControlTest-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		57C8073A2071B91C00D4D4B1 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				57C807862071BB1900D4D4B1 /* QQAlertTestViewController.swift in Sources */,
+				57C807882071BB1900D4D4B1 /* RondoTableViewCell.swift in Sources */,
+				57C807892071BB1900D4D4B1 /* HorizontalViewController.swift in Sources */,
+				57C807842071BB1900D4D4B1 /* RectPageControl.swift in Sources */,
+				57C8078B2071BB1900D4D4B1 /* WechatSheetViewController.swift in Sources */,
+				57C8078E2071BB1900D4D4B1 /* PushDemoViewController.swift in Sources */,
+				57C807912071BB1900D4D4B1 /* PopAnimationProtocol.swift in Sources */,
+				57C807902071BB1900D4D4B1 /* PushAnimationProtocol.swift in Sources */,
+				57C8078D2071BB1900D4D4B1 /* BaseViewController.swift in Sources */,
+				57C8078F2071BB1900D4D4B1 /* PushFirstViewController.swift in Sources */,
 				57C807442071B91C00D4D4B1 /* ViewController.swift in Sources */,
+				57C807932071BB3900D4D4B1 /* MacroFile.swift in Sources */,
 				57C807422071B91C00D4D4B1 /* AppDelegate.swift in Sources */,
+				57C807852071BB1900D4D4B1 /* PageControlTestViewController.swift in Sources */,
+				57C807872071BB1900D4D4B1 /* QAlertView.swift in Sources */,
+				57C8078C2071BB1900D4D4B1 /* WechatSheetTableViewCell.swift in Sources */,
+				57C8078A2071BB1900D4D4B1 /* RondoHorizontalTableView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -424,6 +623,7 @@
 		};
 		57C807672071B91C00D4D4B1 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F2DDD51CA611F7282FA3E45F /* Pods-RondoUIControlTest.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -431,6 +631,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = Rondo.RondoUIControlTest;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "/Users/jiangxuefeng/Desktop/我的桌面/天天向上/RondoUIControlTest/RondoUIControlTest/RondoUIControlTest-Bridging-Header.h";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -438,6 +639,7 @@
 		};
 		57C807682071B91C00D4D4B1 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 87F857E7E669F3076259DB25 /* Pods-RondoUIControlTest.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -445,6 +647,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = Rondo.RondoUIControlTest;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "/Users/jiangxuefeng/Desktop/我的桌面/天天向上/RondoUIControlTest/RondoUIControlTest/RondoUIControlTest-Bridging-Header.h";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
