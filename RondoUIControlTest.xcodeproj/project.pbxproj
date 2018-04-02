@@ -1,0 +1,557 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		57C807422071B91C00D4D4B1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57C807412071B91C00D4D4B1 /* AppDelegate.swift */; };
+		57C807442071B91C00D4D4B1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57C807432071B91C00D4D4B1 /* ViewController.swift */; };
+		57C807472071B91C00D4D4B1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 57C807452071B91C00D4D4B1 /* Main.storyboard */; };
+		57C807492071B91C00D4D4B1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 57C807482071B91C00D4D4B1 /* Assets.xcassets */; };
+		57C8074C2071B91C00D4D4B1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 57C8074A2071B91C00D4D4B1 /* LaunchScreen.storyboard */; };
+		57C807572071B91C00D4D4B1 /* RondoUIControlTestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57C807562071B91C00D4D4B1 /* RondoUIControlTestTests.swift */; };
+		57C807622071B91C00D4D4B1 /* RondoUIControlTestUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57C807612071B91C00D4D4B1 /* RondoUIControlTestUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		57C807532071B91C00D4D4B1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 57C807362071B91C00D4D4B1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 57C8073D2071B91C00D4D4B1;
+			remoteInfo = RondoUIControlTest;
+		};
+		57C8075E2071B91C00D4D4B1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 57C807362071B91C00D4D4B1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 57C8073D2071B91C00D4D4B1;
+			remoteInfo = RondoUIControlTest;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		57C8073E2071B91C00D4D4B1 /* RondoUIControlTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RondoUIControlTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		57C807412071B91C00D4D4B1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		57C807432071B91C00D4D4B1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		57C807462071B91C00D4D4B1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		57C807482071B91C00D4D4B1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		57C8074B2071B91C00D4D4B1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		57C8074D2071B91C00D4D4B1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		57C807522071B91C00D4D4B1 /* RondoUIControlTestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RondoUIControlTestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		57C807562071B91C00D4D4B1 /* RondoUIControlTestTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RondoUIControlTestTests.swift; sourceTree = "<group>"; };
+		57C807582071B91C00D4D4B1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		57C8075D2071B91C00D4D4B1 /* RondoUIControlTestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RondoUIControlTestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		57C807612071B91C00D4D4B1 /* RondoUIControlTestUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RondoUIControlTestUITests.swift; sourceTree = "<group>"; };
+		57C807632071B91C00D4D4B1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		57C8073B2071B91C00D4D4B1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		57C8074F2071B91C00D4D4B1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		57C8075A2071B91C00D4D4B1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		57C807352071B91C00D4D4B1 = {
+			isa = PBXGroup;
+			children = (
+				57C807402071B91C00D4D4B1 /* RondoUIControlTest */,
+				57C807552071B91C00D4D4B1 /* RondoUIControlTestTests */,
+				57C807602071B91C00D4D4B1 /* RondoUIControlTestUITests */,
+				57C8073F2071B91C00D4D4B1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		57C8073F2071B91C00D4D4B1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				57C8073E2071B91C00D4D4B1 /* RondoUIControlTest.app */,
+				57C807522071B91C00D4D4B1 /* RondoUIControlTestTests.xctest */,
+				57C8075D2071B91C00D4D4B1 /* RondoUIControlTestUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		57C807402071B91C00D4D4B1 /* RondoUIControlTest */ = {
+			isa = PBXGroup;
+			children = (
+				57C807412071B91C00D4D4B1 /* AppDelegate.swift */,
+				57C807432071B91C00D4D4B1 /* ViewController.swift */,
+				57C807452071B91C00D4D4B1 /* Main.storyboard */,
+				57C807482071B91C00D4D4B1 /* Assets.xcassets */,
+				57C8074A2071B91C00D4D4B1 /* LaunchScreen.storyboard */,
+				57C8074D2071B91C00D4D4B1 /* Info.plist */,
+			);
+			path = RondoUIControlTest;
+			sourceTree = "<group>";
+		};
+		57C807552071B91C00D4D4B1 /* RondoUIControlTestTests */ = {
+			isa = PBXGroup;
+			children = (
+				57C807562071B91C00D4D4B1 /* RondoUIControlTestTests.swift */,
+				57C807582071B91C00D4D4B1 /* Info.plist */,
+			);
+			path = RondoUIControlTestTests;
+			sourceTree = "<group>";
+		};
+		57C807602071B91C00D4D4B1 /* RondoUIControlTestUITests */ = {
+			isa = PBXGroup;
+			children = (
+				57C807612071B91C00D4D4B1 /* RondoUIControlTestUITests.swift */,
+				57C807632071B91C00D4D4B1 /* Info.plist */,
+			);
+			path = RondoUIControlTestUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		57C8073D2071B91C00D4D4B1 /* RondoUIControlTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 57C807662071B91C00D4D4B1 /* Build configuration list for PBXNativeTarget "RondoUIControlTest" */;
+			buildPhases = (
+				57C8073A2071B91C00D4D4B1 /* Sources */,
+				57C8073B2071B91C00D4D4B1 /* Frameworks */,
+				57C8073C2071B91C00D4D4B1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RondoUIControlTest;
+			productName = RondoUIControlTest;
+			productReference = 57C8073E2071B91C00D4D4B1 /* RondoUIControlTest.app */;
+			productType = "com.apple.product-type.application";
+		};
+		57C807512071B91C00D4D4B1 /* RondoUIControlTestTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 57C807692071B91C00D4D4B1 /* Build configuration list for PBXNativeTarget "RondoUIControlTestTests" */;
+			buildPhases = (
+				57C8074E2071B91C00D4D4B1 /* Sources */,
+				57C8074F2071B91C00D4D4B1 /* Frameworks */,
+				57C807502071B91C00D4D4B1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				57C807542071B91C00D4D4B1 /* PBXTargetDependency */,
+			);
+			name = RondoUIControlTestTests;
+			productName = RondoUIControlTestTests;
+			productReference = 57C807522071B91C00D4D4B1 /* RondoUIControlTestTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		57C8075C2071B91C00D4D4B1 /* RondoUIControlTestUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 57C8076C2071B91C00D4D4B1 /* Build configuration list for PBXNativeTarget "RondoUIControlTestUITests" */;
+			buildPhases = (
+				57C807592071B91C00D4D4B1 /* Sources */,
+				57C8075A2071B91C00D4D4B1 /* Frameworks */,
+				57C8075B2071B91C00D4D4B1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				57C8075F2071B91C00D4D4B1 /* PBXTargetDependency */,
+			);
+			name = RondoUIControlTestUITests;
+			productName = RondoUIControlTestUITests;
+			productReference = 57C8075D2071B91C00D4D4B1 /* RondoUIControlTestUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		57C807362071B91C00D4D4B1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = Rondo;
+				TargetAttributes = {
+					57C8073D2071B91C00D4D4B1 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					57C807512071B91C00D4D4B1 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 57C8073D2071B91C00D4D4B1;
+					};
+					57C8075C2071B91C00D4D4B1 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 57C8073D2071B91C00D4D4B1;
+					};
+				};
+			};
+			buildConfigurationList = 57C807392071B91C00D4D4B1 /* Build configuration list for PBXProject "RondoUIControlTest" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 57C807352071B91C00D4D4B1;
+			productRefGroup = 57C8073F2071B91C00D4D4B1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				57C8073D2071B91C00D4D4B1 /* RondoUIControlTest */,
+				57C807512071B91C00D4D4B1 /* RondoUIControlTestTests */,
+				57C8075C2071B91C00D4D4B1 /* RondoUIControlTestUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		57C8073C2071B91C00D4D4B1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				57C8074C2071B91C00D4D4B1 /* LaunchScreen.storyboard in Resources */,
+				57C807492071B91C00D4D4B1 /* Assets.xcassets in Resources */,
+				57C807472071B91C00D4D4B1 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		57C807502071B91C00D4D4B1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		57C8075B2071B91C00D4D4B1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		57C8073A2071B91C00D4D4B1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				57C807442071B91C00D4D4B1 /* ViewController.swift in Sources */,
+				57C807422071B91C00D4D4B1 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		57C8074E2071B91C00D4D4B1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				57C807572071B91C00D4D4B1 /* RondoUIControlTestTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		57C807592071B91C00D4D4B1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				57C807622071B91C00D4D4B1 /* RondoUIControlTestUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		57C807542071B91C00D4D4B1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 57C8073D2071B91C00D4D4B1 /* RondoUIControlTest */;
+			targetProxy = 57C807532071B91C00D4D4B1 /* PBXContainerItemProxy */;
+		};
+		57C8075F2071B91C00D4D4B1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 57C8073D2071B91C00D4D4B1 /* RondoUIControlTest */;
+			targetProxy = 57C8075E2071B91C00D4D4B1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		57C807452071B91C00D4D4B1 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				57C807462071B91C00D4D4B1 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		57C8074A2071B91C00D4D4B1 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				57C8074B2071B91C00D4D4B1 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		57C807642071B91C00D4D4B1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		57C807652071B91C00D4D4B1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		57C807672071B91C00D4D4B1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = RondoUIControlTest/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Rondo.RondoUIControlTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		57C807682071B91C00D4D4B1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = RondoUIControlTest/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Rondo.RondoUIControlTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		57C8076A2071B91C00D4D4B1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = RondoUIControlTestTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Rondo.RondoUIControlTestTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RondoUIControlTest.app/RondoUIControlTest";
+			};
+			name = Debug;
+		};
+		57C8076B2071B91C00D4D4B1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = RondoUIControlTestTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Rondo.RondoUIControlTestTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RondoUIControlTest.app/RondoUIControlTest";
+			};
+			name = Release;
+		};
+		57C8076D2071B91C00D4D4B1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = RondoUIControlTestUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Rondo.RondoUIControlTestUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = RondoUIControlTest;
+			};
+			name = Debug;
+		};
+		57C8076E2071B91C00D4D4B1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = RondoUIControlTestUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Rondo.RondoUIControlTestUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = RondoUIControlTest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		57C807392071B91C00D4D4B1 /* Build configuration list for PBXProject "RondoUIControlTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				57C807642071B91C00D4D4B1 /* Debug */,
+				57C807652071B91C00D4D4B1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		57C807662071B91C00D4D4B1 /* Build configuration list for PBXNativeTarget "RondoUIControlTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				57C807672071B91C00D4D4B1 /* Debug */,
+				57C807682071B91C00D4D4B1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		57C807692071B91C00D4D4B1 /* Build configuration list for PBXNativeTarget "RondoUIControlTestTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				57C8076A2071B91C00D4D4B1 /* Debug */,
+				57C8076B2071B91C00D4D4B1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		57C8076C2071B91C00D4D4B1 /* Build configuration list for PBXNativeTarget "RondoUIControlTestUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				57C8076D2071B91C00D4D4B1 /* Debug */,
+				57C8076E2071B91C00D4D4B1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 57C807362071B91C00D4D4B1 /* Project object */;
+}
